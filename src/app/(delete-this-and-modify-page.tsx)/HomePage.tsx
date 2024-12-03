@@ -11,13 +11,18 @@ const HomePage: React.FC = () => {
                 </div>
                 <ol className='list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left'>
                     <li className='mb-2'>
-                        Get started by editing{' '}
+                        Raise your average order value with
                         <code className='rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]'>
-                            src/app/page.tsx
+                            AI-driven
                         </code>
-                        .
+                        solutions.
                     </li>
-                    <li>Save and see your changes instantly.</li>
+                    <li className='mb-2'>
+                        We help you with
+                        <code className='rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]'>
+                            AI-driven cross-sell, upsell, and gifting
+                        </code>
+                    </li>
                 </ol>
 
                 <h2 className='text-3xl font-bold'>
@@ -25,13 +30,18 @@ const HomePage: React.FC = () => {
                 </h2>
                 <ol className='list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left'>
                     <li className='mb-2'>
-                        Get started by editing{' '}
+                        Save your e-commerce product photo shoot cost with
                         <code className='rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]'>
-                            src/app/page.tsx
+                            magicshift
                         </code>
-                        .
                     </li>
-                    <li>Save and see your changes instantly.</li>
+                    <li className='mb-2'>
+                        Automate{' '}
+                        <code className='rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]'>
+                            bulk color updates
+                        </code>
+                        for apparel products
+                    </li>
                 </ol>
                 <div className='flex items-center gap-4'>
                     <a
@@ -47,8 +57,7 @@ const HomePage: React.FC = () => {
                             height={16}
                         />
                         <p>
-
-                        MagicSell<span className='text-red-500'>.ai</span>
+                            MagicSell<span className='text-red-500'>.ai</span>
                         </p>
                     </a>
                     <a
